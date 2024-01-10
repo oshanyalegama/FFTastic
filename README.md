@@ -14,3 +14,7 @@ AddNoise.m is used to add noise to the enrollment audio files, ChangeVolume.m is
   3. Create a folder called NoiseSamples, VolumeSamples where the new audio clips will be saved.
   4. NoiseSamples: https://dms.uom.lk/s/nCpx9jnpqS8L6pA 
   5. VolumeSamples: https://dms.uom.lk/s/RdkL8ZfZkFgxbcX 
+
+AddReverberation.m can be used to add reverberation to the audio files. When using,
+  1. The number preceding the 'WetDryMix' indicates the reveberation to original sound ratio.
+  2. https://dms.uom.lk/s/nEoeNKEiBmW6xqB 
