@@ -18,3 +18,7 @@ AddNoise.m is used to add noise to the enrollment audio files, ChangeVolume.m is
 AddReverberation.m can be used to add reverberation to the audio files. When using,
   1. The number preceding the 'WetDryMix' indicates the reveberation to original sound ratio.
   2. https://dms.uom.lk/s/nEoeNKEiBmW6xqB 
+
+BabbleGenerator.m can be used to generate babble samples using the enrollment clips. When using,
+  1. The number of babble clips and the number of enrollment clips in a single babble clip can be adjusted.
+  2. 
