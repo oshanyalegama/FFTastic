@@ -26,3 +26,12 @@ BabbleGenerator.m can be used to generate babble samples using the enrollment cl
 AddBabble.m will combine the babble clips and the enrollment clips to give a new dataset. When using,
   1. Ensure that the number of babble clips and enrollment clips are equal. (Generate the babble clips using enrollment clips with BabbleGenerator.m)
   2. https://dms.uom.lk/s/9eKHn7f5E273oqR
+
+
+# Signal Enhancement
+
+Filter.m contains code for both denoising and filtering. Adjust the filter passband and stopband edges as required. If needed to convert to Hz, multiply the value by sampling_frequency/2 (in this case 16000/2 =8000)
+
+Looped codes can be used on any folder to filter/ denoise all files in the code.
+
+The Amplify codes in addition to denoising, amplify the signal 2x for clearer hearing.
