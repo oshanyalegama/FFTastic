@@ -21,4 +21,8 @@ AddReverberation.m can be used to add reverberation to the audio files. When usi
 
 BabbleGenerator.m can be used to generate babble samples using the enrollment clips. When using,
   1. The number of babble clips and the number of enrollment clips in a single babble clip can be adjusted.
-  2. 
+  2. https://dms.uom.lk/s/eL7LWHzkx7YiHNj
+
+AddBabble.m will combine the babble clips and the enrollment clips to give a new dataset. When using,
+  1. Ensure that the number of babble clips and enrollment clips are equal. (Generate the babble clips using enrollment clips with BabbleGenerator.m)
+  2. https://dms.uom.lk/s/9eKHn7f5E273oqR
