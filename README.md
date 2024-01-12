@@ -27,6 +27,9 @@ AddBabble.m will combine the babble clips and the enrollment clips to give a new
   1. Ensure that the number of babble clips and enrollment clips are equal. (Generate the babble clips using enrollment clips with BabbleGenerator.m)
   2. https://dms.uom.lk/s/9eKHn7f5E273oqR
 
+Additional Dataset for french speech recognition and speaker verification.
+  1. https://openslr.org/88/
+
 
 # Signal Enhancement
 
