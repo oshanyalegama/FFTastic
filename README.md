@@ -41,4 +41,6 @@ The Amplify codes in addition to denoising, amplify the signal 2x for clearer he
 
 # Model
 
-KNN is a K means clustering method of speaker verification based on extracting features. The test has done been to the enrollment set only. It is suggested to try this for an expanded enrollment set and for the test set.
+1. KNN is a K means clustering method of speaker verification based on extracting features. The test has done been to the enrollment set only. It is suggested to try this for an expanded enrollment set and for the test set.
+
+2. ivector based system implementation in MATLAB. A baseline system that generates the submission file as well.
