@@ -38,3 +38,7 @@ Filter.m contains code for both denoising and filtering. Adjust the filter passb
 Looped codes can be used on any folder to filter/ denoise all files in the code.
 
 The Amplify codes in addition to denoising, amplify the signal 2x for clearer hearing.
+
+# Model
+
+KNN is a K means clustering method of speaker verification based on extracting features. The test has done been to the enrollment set only. It is suggested to try this for an expanded enrollment set and for the test set.
