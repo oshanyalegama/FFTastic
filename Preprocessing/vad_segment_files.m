@@ -9,6 +9,6 @@ for i = 1:length(input_files)
         VADidx = detectSpeech(audioIn,fs);
         VADmask = sigroi2binmask(VADidx,numel(audioIn));
         audioDetected = audioIn(VADmask);
-        
+        audioDetected = audioDetected./max(audioDetected);
         audiowrite(['standardized test ssbol with VAD\' input_files(i).name],audioDetected,fs);
 end
