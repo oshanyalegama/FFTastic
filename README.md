@@ -48,3 +48,5 @@ The Amplify codes in addition to denoising, amplify the signal 2x for clearer he
 3. A model based on extracting the embedding using an LSTM network
 
 4. The TitaNet-L model by NVidia
+
+## More details can be found in the final report.
